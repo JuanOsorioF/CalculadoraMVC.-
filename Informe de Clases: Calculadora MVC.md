@@ -4,9 +4,11 @@ La estructura del programa consta de una clase principal MVCCalculator y tres cl
 
 
 MVCCalculator
+
 La clase MVCCalculatores la clase principal de la aplicación. Su método main() crea un objeto CalculatorView y un objeto CalculatorModel, y luego crea un objeto CalculatorController que toma como parámetros la vista y el modelo. Finalmente, la vista se hace visible al final del método main().
 
 CalculatorController
+
 La clase CalculatorController es el controlador del patrón de diseño MVC (Modelo-Vista-Controlador). Es el encargado de recibir las interacciones del usuario en la vista, comunicarse con el modelo para realizar los cálculos necesarios y actualizar la vista con los resultados obtenidos.
 
 La clase CalculatorController tiene los siguientes métodos:
@@ -17,6 +19,7 @@ public void actionPerformed(ActionEvent e): implementa el método actionPerforme
 
 
 CalculatorModel
+
 La clase CalculatorModel es el modelo del patrón de diseño MVC. Es el encargado de realizar los cálculos necesarios para resolver la operación matemática que se le haya solicitado.
 
 La clase CalculatorModel tiene los siguientes métodos:
@@ -26,6 +29,7 @@ public void addTwoNumbers(int firstNumber, int secondNumber): recibe dos número
 public int getCalculationValue(): devuelve el valor almacenado en la variable privada calculationValue.
 
 CalculatorView
+
 La clase CalculatorView es la vista del patrón de diseño MVC. Es el encargado de mostrar al usuario la interfaz gráfica necesaria para que este pueda interactuar con la aplicación.
 
 La clase CalculatorView tiene los siguientes métodos:
