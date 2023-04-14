@@ -1,6 +1,6 @@
 INFORME DE CLASES
 
-El código proporcionado consta de tres clases: CalculatorController, CalculatorModel y CalculatorView. A continuación, se detalla la funcionalidad de cada una de ellas:
+El código consta de tres clases: CalculatorController, CalculatorModel y CalculatorView. A continuación, se detalla la funcionalidad de cada una de ellas:
 
 CalculatorController
 La clase CalculatorController es el controlador del patrón de diseño MVC (Modelo-Vista-Controlador). Es el encargado de recibir las interacciones del usuario en la vista, comunicarse con el modelo para realizar los cálculos necesarios y actualizar la vista con los resultados obtenidos.
